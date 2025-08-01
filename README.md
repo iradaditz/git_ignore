@@ -1,1 +1,1 @@
-# Git Ignpre Project
+# Git Ignore Project
