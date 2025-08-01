@@ -1,0 +1,16 @@
+  266  echo "# Git Ignpre Project" > README.md
+  267  nano .gitignore
+  268  git add README.md .gitignore
+  269  git status
+  270  git commit -m "Aenderungen hinzugefuegt in README und .gitignore"
+  271  git push origin feature
+  272  git push origin feature
+  273  git commit --amend -m "Änderungen hinzugefügt in README.md und .gitignore - amend"
+  274  git push --force origin feature
+  275  git checkout main
+  276  git branch
+  277  git checkout -b main
+  278  git push -u origin main
+  279  git checkout main
+  280  git merge feature
+  281  git push origin main
